@@ -4,7 +4,7 @@ import urllib.parse
 name = 'google'
 tags = ['search']
 
-BROWSER_COMMAND = 'open'
+BROWSER_COMMAND = '/opt/google/chrome/chrome'
 BASE_URL = 'https://www.google.de/#q='
 
 

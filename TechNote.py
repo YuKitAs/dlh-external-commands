@@ -7,9 +7,9 @@ from utilities import choose_from
 name = 'technote'
 tags = ['doc', 'document', 'github']
 
-BROWSER_COMMAND = 'open'
+BROWSER_COMMAND = '/opt/google/chrome/chrome'
 SEARCH_URL = 'https://api.github.com/search/code'
-WEB_URL = 'https://github.com/xiGUAwanOU/tech-note/blob/master/'
+WEB_URL = 'https://github.com/YuKitAs/tech-note/blob/master/'
 
 
 def do(self, line):
@@ -28,7 +28,7 @@ def do(self, line):
 
 
 def __search_for_documents(keyword):
-    query = '%s extension:md repo:xiGUAwanOU/tech-note' % keyword
+    query = '%s extension:md repo:YuKitAs/tech-note' % keyword
     response = requests.get(SEARCH_URL, params={'q': query})
     if response.status_code != 200:
         return []

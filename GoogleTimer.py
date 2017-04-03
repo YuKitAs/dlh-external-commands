@@ -4,7 +4,7 @@ import subprocess
 name = 'googletimer'
 tags = ['timer', 'countdown', 'clock']
 
-BROWSER_COMMAND = 'open'
+BROWSER_COMMAND = '/opt/google/chrome/chrome'
 BASE_URL = 'https://www.google.de/#q=timer+'
 
 
