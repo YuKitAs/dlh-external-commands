@@ -1,6 +1,7 @@
 .idea/
 __pycache__/
 *.py
+!Google.py
 !GoogleTimer.py
 !SayHello.py
 !TechNote.py
