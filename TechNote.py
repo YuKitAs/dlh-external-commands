@@ -7,9 +7,9 @@ from utilities import choose_from
 name = 'technote'
 tags = ['doc', 'document', 'github']
 
+BROWSER_COMMAND = 'open'
 SEARCH_URL = 'https://api.github.com/search/code'
 WEB_URL = 'https://github.com/xiGUAwanOU/tech-note/blob/master/'
-BROWSER_COMMAND = 'open'
 
 
 def do(self, line):
